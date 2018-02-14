@@ -1,0 +1,13 @@
+{
+  "port": 8080,
+  "mongoose": {
+    "uri": "mongodb://localhost/chat",
+    "options": {
+      "server": {
+        "socetOptions": {
+          "keepAlive": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+extends layout
+
+block content
+
+    div#room.container
+        h1 #{ title }
+
+        ul#messages
+        form
+            .form-group
+                input#message.form-control(autocomplete="off", placeholder="Введите сообщение...")
+            button.btn.btn-primary(type='submit') Отправить
